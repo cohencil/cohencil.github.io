@@ -16,7 +16,7 @@ const jsonLd = {
   '@type': 'BlogPosting',
   headline: data.title,
   ...(data.description && { description: data.description }),
-  ...(data.image && { image: new URL(data.image, 'https://portfolio.cohencil.com').toString() }),
+  ...(data.image && { image:     new URL(data.image, 'https://cohencil.github.io').toString() }),
   datePublished: data.date.toISOString(),
   ...(data.updated_date && { dateModified: data.updated_date.toISOString() }),
   author: {
@@ -29,7 +29,7 @@ const jsonLd = {
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': new URL(postHref(post), 'https://portfolio.cohencil.com').toString(),
+    '@id': new URL(postHref(post), 'https://cohencil.github.io').toString(),
   },
   ...(data.tags.length && { keywords: data.tags.join(', ') }),
 };
@@ -39,7 +39,7 @@ const jsonLd = {
   title={data.title}
   description={data.description ?? undefined}
   image={data.image ?? undefined}
-  canonicalPath={`/blog/${post.id}/`}
+  canonicalPath={`/${post.id}/`}
   unlisted={data.unlisted}
   type="article"
   jsonLd={jsonLd}

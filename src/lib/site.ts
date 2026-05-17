@@ -6,7 +6,7 @@ export const SITE = {
   author: "Chen Cohen",
   description:
     "DevOps, SRE, Platform Engineering, and AI-driven delivery — by Chen Cohen.",
-  url: "https://portfolio.cohencil.com",
+  url: "https://cohencil.github.io",
   locale: "en",
   postsPerPage: 10,
   // Homepage rails

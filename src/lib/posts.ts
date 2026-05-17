@@ -44,7 +44,7 @@ export async function getAllTags(): Promise<Map<string, number>> {
 
 export function postHref(post: Post): string {
   // Matches Hugo's blog/<slug> scheme so URL parity is preserved.
-  return `/blog/${post.id}/`;
+  return `/${post.id}/`;
 }
 
 export function formatDate(d: Date): string {

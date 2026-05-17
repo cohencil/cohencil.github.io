@@ -6,7 +6,7 @@ import { remarkReadingTime } from "./remark-reading-time.mjs";
 import { readFileSync, readdirSync, statSync } from "fs";
 import { join, resolve } from "path";
 
-const SITE = "https://portfolio.cohencil.com";
+const SITE = "https://cohencil.github.io";
 
 function getUnlistedUrls() {
   const blogDir = resolve("src/content/blog");
@@ -21,7 +21,7 @@ function getUnlistedUrls() {
         const fmMatch = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
         if (fmMatch && /^unlisted:\s*true/m.test(fmMatch[1])) {
           const slug = entry.replace(/\.mdx?$/, "");
-          const path = `${SITE}/blog/${slugPrefix ? slugPrefix + "/" : ""}${slug}`;
+          const path = `${SITE}/${slugPrefix ? slugPrefix + "/" : ""}${slug}`;
           urls.add(path);
           urls.add(path + "/");
         }
@@ -42,7 +42,7 @@ export default defineConfig({
   },
   integrations: [
     astroConsent({
-      siteName: "portfolio.cohencil.com",
+      siteName: "cohencil.github.io",
       headline: "",
       description: "This site uses minimal cookies for YouTube embeds. No tracking or ads.",
       acceptLabel: "Accept",
