@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-05-17",
+  "count": 17,
+  "engagements": [
+    {
+      "company": "Qwilt",
+      "start": "2025-11-01",
+      "end": "2026-04-01",
+      "months": 5
+    },
+    {
+      "company": "HoneyBook",
+      "start": "2025-03-01",
+      "end": "2025-11-01",
+      "months": 8
+    },
+    {
+      "company": "Qualcomm",
+      "start": "2024-09-01",
+      "end": "2025-02-01",
+      "months": 5
+    },
+    {
+      "company": "UGlabs",
+      "start": "2024-01-01",
+      "end": "2024-06-01",
+      "months": 5
+    },
+    {
+      "company": "Qwilt",
+      "start": "2022-05-01",
+      "end": "2023-12-01",
+      "months": 19
+    },
+    {
+      "company": "Elementor",
+      "start": "2021-06-01",
+      "end": "2022-04-01",
+      "months": 10
+    },
+    {
+      "company": "SentinelOne",
+      "start": "2020-09-01",
+      "end": "2021-05-01",
+      "months": 8
+    },
+    {
+      "company": "Checkmarx",
+      "start": "2019-11-01",
+      "end": "2020-07-01",
+      "months": 8
+    },
+    {
+      "company": "Globality",
+      "start": "2019-10-01",
+      "end": "2019-11-01",
+      "months": 1
+    },
+    {
+      "company": "ClickSoftware",
+      "start": "2018-12-01",
+      "end": "2019-09-01",
+      "months": 9
+    },
+    {
+      "company": "HarelInsurance",
+      "start": "2018-08-01",
+      "end": "2018-09-01",
+      "months": 1
+    },
+    {
+      "company": "Microfocus",
+      "start": "2018-05-01",
+      "end": "2018-11-01",
+      "months": 6
+    },
+    {
+      "company": "HarelInsurance",
+      "start": "2017-09-01",
+      "end": "2018-05-01",
+      "months": 8
+    },
+    {
+      "company": "Akamai",
+      "start": "2017-03-01",
+      "end": "2017-08-01",
+      "months": 5
+    },
+    {
+      "company": "FTSBiometrics",
+      "start": "2017-02-01",
+      "end": "2017-03-01",
+      "months": 1
+    },
+    {
+      "company": "BlueSnap",
+      "start": "2017-01-01",
+      "end": "2017-02-01",
+      "months": 1
+    },
+    {
+      "company": "SAP",
+      "start": "2014-09-01",
+      "end": "2017-01-01",
+      "months": 28
+    }
+  ]
+}
